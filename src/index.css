@@ -2,9 +2,9 @@
 .Header {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #FF6347; /* A more vibrant salmon color */
-    background-color: #FFF8DC; /* A light, appetizing cream color */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
+    border: 1px solid #FF6347; 
+    background-color: #FFF8DC; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .logo{
@@ -37,8 +37,40 @@
 }
 
 
+.filter {
+    display: flex;
+    align-items: center;
+    background-color: #FFF8DC; 
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin: 10px 0; 
+}
 
+.filter input[type="text"] {
+    flex-grow: 1; 
+    padding: 10px;
+    border: 1px solid #FF6347; 
+    border-radius: 5px 0 0 5px; 
+    font-size: 1rem;
+    color: #333333;
+    outline: none; 
+}
 
+.filter .filter-btn {
+    padding: 10px 20px;
+    background-color: #FF6347; 
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.filter .filter-btn:hover {
+    background-color: #e55a3c; 
+}
 
 
 .res-card {
@@ -60,15 +92,8 @@
     flex-wrap: wrap;
 }
 
-.search {
-    padding: 10px;
-}
-
 .res-logo {
     padding: 5px;
     width: 190px;
 }
 
-.filter-btn{
-    margin: 10px;
-}
