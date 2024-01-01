@@ -1,24 +1,45 @@
+/* Header */
 .Header {
     display: flex;
     justify-content: space-between;
-    border: 1px salmon solid;
+    border: 1px solid #FF6347; /* A more vibrant salmon color */
+    background-color: #FFF8DC; /* A light, appetizing cream color */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow for depth */
 }
 
 .logo{
-    width: 200px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navItems > ul {
     display: flex;
     font-size: 1.5rem;
     padding: 20px;
+    margin: 0; 
 }
 
 .navItems > ul > li {
     padding: 10px;
     margin: 10px;
     list-style-type: none;
+    color: #333333; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
 }
+
+.navItems > ul > li:hover {
+    background-color: #FF6347; 
+    color: white; 
+}
+
+
+
+
+
 
 .res-card {
     margin: 5px;
